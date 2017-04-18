@@ -1,0 +1,28 @@
+.roles{
+  display: flex;
+  font-family: fantasy;
+  font-size: 14px;
+  max-width: 1024px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.rol{
+  border: 1px solid black;
+  width: 33%;
+  display: inline;
+
+}
+.icono{
+  width: 100px;
+  float:left;
+  max-width: 25%;
+}
+.texto{
+  border: 1px solid pink;
+  float:right;
+  max-width: 70%;
+
+
+}
