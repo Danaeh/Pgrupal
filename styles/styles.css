@@ -4,24 +4,31 @@
   font-size: 14px;
   max-width: 1024px;
   width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
 
 }
 .rol{
-  border: 1px solid black;
+  display: flex;
+  /*border: 1px solid black; */
   width: 33%;
-  display: inline;
+  align-content: flex-start;
+
 
 }
 .icono{
-  width: 100px;
-  float:left;
-  max-width: 25%;
+  background-image: url(image/erza.jpg);
+  width: 160px;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  background-size: 100% auto;
+  max-width: 95%;
 }
 .texto{
-  border: 1px solid pink;
-  float:right;
+  /*border: 1px solid pink; */
+
   max-width: 70%;
 
 
